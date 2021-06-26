@@ -3195,7 +3195,7 @@ body {
 }
 
 .wrapper {
-  background-color: #dfe6e9;
+  background-color: #f1f1f1;
   width: 100%;
   margin: auto;
   padding: 50px 30px;
@@ -3289,6 +3289,11 @@ li {
   width: -moz-fit-content;
   width: fit-content;
   min-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .parent-disc-code pre.pre-language-html::before {
@@ -3455,5 +3460,31 @@ li {
 
 .parent-disc-code pre.pre-language-javascript code.code-language-javascript .string {
   color: #e2777a;
+}
+
+.disc-code-text {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.main-header {
+  background-color: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.main-header .h2 {
+  padding: 0;
+  margin: 0;
 }
 /*# sourceMappingURL=framework.css.map */
